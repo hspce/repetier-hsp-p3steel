@@ -59,7 +59,7 @@
 #define EXTRUDER_FAN_COOL_TEMP 50
 #define EXT0_X_OFFSET 0
 #define EXT0_Y_OFFSET 0
-#define EXT0_STEPS_PER_MM 736
+#define EXT0_STEPS_PER_MM 1037.76
 #define EXT0_TEMPSENSOR_TYPE 1
 #define EXT0_TEMPSENSOR_PIN TEMP_0_PIN
 #define EXT0_HEATER_PIN HEATER_0_PIN
@@ -134,7 +134,7 @@
 #define ENDSTOP_Y_MIN_INVERTING false
 #define MIN_HARDWARE_ENDSTOP_Y true
 #define ENDSTOP_PULLUP_Z_MIN true
-#define ENDSTOP_Z_MIN_INVERTING false
+#define ENDSTOP_Z_MIN_INVERTING true
 #define MIN_HARDWARE_ENDSTOP_Z true
 #define ENDSTOP_PULLUP_X_MAX true
 #define ENDSTOP_X_MAX_INVERTING false
@@ -386,7 +386,7 @@ Values must be in range 1..255
             "waitRetractTemp": 150,
             "waitRetractUnits": 0,
             "waitRetract": 0,
-            "stepsPerMM": 736,
+            "stepsPerMM": 1037.76,
             "coolerPin": -1,
             "coolerSpeed": 255,
             "selectCommands": "",
@@ -408,7 +408,7 @@ Values must be in range 1..255
     "uiController": 0,
     "xMinEndstop": 2,
     "yMinEndstop": 2,
-    "zMinEndstop": 2,
+    "zMinEndstop": 1,
     "xMaxEndstop": 0,
     "yMaxEndstop": 0,
     "zMaxEndstop": 0,
