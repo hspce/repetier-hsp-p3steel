@@ -44,6 +44,7 @@
 // ################## EDIT THESE SETTINGS MANUALLY ################
 // ################ END MANUAL SETTINGS ##########################
 
+#define FAN_PIN HEATER_2_PIN
 #define FAN_BOARD_PIN -1
 
 //#define EXTERNALSERIAL  use Arduino serial library instead of build in. Requires more ram, has only 63 byte input buffer.
@@ -630,7 +631,7 @@ Values must be in range 1..255
     "forceChecksum": "0",
     "sdExtendedDir": "1",
     "featureFanControl": "1",
-    "fanPin": "ORIG_FAN_PIN",
+    "fanPin": "HEATER_2_PIN",
     "scalePidToMax": 0,
     "zProbePin": -1,
     "zProbeBedDistance": 10,
